@@ -29,7 +29,7 @@ class ClientRequest extends FormRequest
             'email' => 'required|email',
             'postcode' => 'required',
             'address' => 'required',
-            'opinion' => 'required',
+            'opinion' => 'required|max:120',
         ];
     }
 }

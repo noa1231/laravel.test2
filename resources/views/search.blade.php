@@ -8,7 +8,7 @@
 </head>
 <body>
   <h2>管理システム</h2>
-  <form action="{{ route('search') }}" method="get">
+  <form action="{{ route('display') }}" method="get">
     <div>
       <label for="">お名前</label>
       <input type="text" name="fullname">

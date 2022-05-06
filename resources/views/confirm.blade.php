@@ -16,7 +16,7 @@
     </div>
     <div>
       <label for="">性別</label>
-      <input type="hidden" name="gender" >{{ $input['gender'] }}
+      <input type="hidden" name="gender">{{ $input['gender'] }}
     </div>
     <div>
       <label for="">メールアドレス</label>

@@ -20,3 +20,4 @@ Route::post('/confirm', [ContactController::class, 'confirm'])->name('confirm');
 Route::post('/create', [ContactController::class, 'create'])->name('create');
 //管理システム
 Route::get('/search', [SearchController::class, 'search'])->name('search');
+Route::get('/display',[SearchController::class, 'display'])->name('display');
